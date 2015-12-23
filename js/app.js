@@ -13,10 +13,10 @@ var ViewModel = function() {
     });	
     self.nickname = ko.observableArray(
     	[
-    		{name:'Tabtab'},
-    		{name:'fuck'},
-    		{name:'dog'},
-    		{name:'doggie'}   		
+    		'Tabtab',
+    		'fuck',
+    		'dog',
+    		'doggie'   		
     	]);
 };
 
